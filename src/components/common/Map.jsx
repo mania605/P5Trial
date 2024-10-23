@@ -15,20 +15,6 @@ export default function Map() {
 			markerImg: 'marker1.png',
 			markerSize: new kakao.maps.Size(232, 99),
 			markerOffset: { offset: new kakao.maps.Point(116, 99) }
-		},
-		{
-			title: 'NEXON',
-			latlng: new kakao.maps.LatLng(37.40211707077346, 127.10344953763003),
-			markerImg: 'marker2.png',
-			markerSize: new kakao.maps.Size(232, 99),
-			markerPos: { offset: new kakao.maps.Point(116, 99) }
-		},
-		{
-			title: 'CITYHALL',
-			latlng: new kakao.maps.LatLng(37.5662952, 126.9779451),
-			markerImg: 'marker3.png',
-			markerSize: new kakao.maps.Size(232, 99),
-			markerPos: { offset: new kakao.maps.Point(116, 99) }
 		}
 	]);
 	const { latlng, markerImg, markerSize, markerPos } = ref_info.current[Index];
